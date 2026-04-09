@@ -8,7 +8,14 @@ desktop.ini
 *.log
 temp/
 cache/
+*.psd.lock
+*.fbx.lock
+*.blend1
 
-# 强制保留空文件夹
-*
-!*/
+# 源文件缓存
+__pycache__/
+*.sublime-*
+
+# 忽略本地配置
+.vscode/
+.idea/
