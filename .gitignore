@@ -1,0 +1,10 @@
+# 垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 缓存文件
+*.tmp
+*.log
+temp/
+cache/
