@@ -30,47 +30,89 @@
 ## 目录详情参考
 
 \Libraryofruina/
+
 ├─ .git/                # Git核心文件（别动）
+
 ├─ .gitignore           # 忽略规则
+
 ├─ README.md            # 仓库说明文档
+
 │
+
 ├─ /Texture/            # 【贴图总库】
+
 │  ├─ /T-Character/       # 角色贴图（角色立绘、皮肤、表情）
+
 │  ├─ /T-Environment/     # 场景贴图（地形、建筑、植被
+
 │  ├─ /T-UI/              # UI贴图
+
 │  ├─ /T-Effect/          # 特效贴图（粒子、光效、技能）
+
 │  └─ /T-Material/        # 材质球/程序化贴图
+
 │
+
 ├─ /Model/              # 【3D模型总库】
+
 │  ├─ /M-Character/       # 角色模型
+
 │  ├─ /M-Environment/     # 场景模型（建筑、场景物件）
+
 │  ├─ /M-Weapon/          # 武器模型
+
 │  └─ /M-Prop/            # 道具模型（交互物）
+
 │
+
 ├─ /UI/                 # 【UI总库】
+
 │  ├─ /U-Icon/            # 图标
+
 │  ├─ /U-Panel/           # 界面
+
 │  ├─ /U-Font/            # 字体文件
+
 │  └─ /U-Animation/       # UI动效（弹窗动画、按钮反馈）
+
 │
 ├─ /Animation/          # 【动画总库】
+
 │  ├─ /A-Character/       # 角色动画（待机、行走、攻击）
+
 │  ├─ /A-Effect/          # 特效动画（技能、场景特效）
+
 │  └─ /A-UI/              # UI动画（界面切换、弹窗）
+
 │
+
 ├─ /Effect/             # 【特效总库】
+
 │  ├─ /E-Skill/           # 技能特效
+
 │  ├─ /E-Scene/           # 场景特效（天气、环境光效）
+
 │  └─ /E-UI/              # UI特效（按钮、弹窗）
+
 │
+
 ├─ /Source/             # 【源文件总库】
+
 │  ├─ /S-PSD/             # PS工程文件（原画、UI设计稿）
+
 │  ├─ /S-Blend/           # Blender工程文件（3D模型源文件）
+
 │  ├─ /S-Spine/           # 骨骼动画源文件（最好是用的龙骨）
+
 │  └─ /S-AE/              # 特效/动画AE工程
+
 │
+
 └─ /Doc/                # 【文档总库】
+
    ├─ /D-AssetList/       # 素材清单表（Excel，记录素材用途、版本）
+   
    └─ /D-Todo/            # 待制作素材清单
    
+
 ---
